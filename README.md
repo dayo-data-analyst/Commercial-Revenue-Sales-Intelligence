@@ -3,11 +3,13 @@
 Frangle Sales Performance Analysis (2014)
 
 📌 Project Overview
+
 This project analyses commercial sales data to evaluate revenue performance, customer purchasing behaviour, regional sales trends, product performance, and salesperson effectiveness. Using Microsoft Advanced Excel, I transformed raw sales data into an interactive executive dashboard that provides actionable insights for business decision-making.
 The dashboard enables stakeholders to monitor key performance indicators (KPIs), identify revenue opportunities, and make data-driven commercial decisions.
 ________________________________________
 
 🎯 Business Problem
+
 Businesses generate large volumes of sales transactions daily, making it challenging to identify:
 •	💰 Which customers generate the highest revenue
 •	📦 Which products contribute most to sales
@@ -18,6 +20,7 @@ Without a centralised dashboard, management may struggle to monitor performance 
 ________________________________________
 
 🎯 Project Objectives
+
 The project aims to:
 •	📈 Analyse overall business revenue performance
 •	👥 Identify top-performing customers
@@ -29,6 +32,7 @@ The project aims to:
 ________________________________________
 
 🗂️ Dataset
+
 The dataset contains commercial sales transaction records including:
 •	Customer Name
 •	Product
@@ -43,6 +47,7 @@ The dataset contains commercial sales transaction records including:
 ________________________________________
 
 🛠️ Tools & Skills Used
+
 Microsoft Advanced Excel
 •	Pivot Tables
 •	Pivot Charts
@@ -56,6 +61,7 @@ Microsoft Advanced Excel
 ________________________________________
 
 📊 Dashboard KPIs
+
 The dashboard provides executives with a quick overview of business performance.
 
 💰 Total Revenue
@@ -89,6 +95,7 @@ Business Value
 ________________________________________
 
 🌍 City Sales Analysis
+
 Compares revenue generated across different cities.
 Business Value
 •	Identify strongest markets
@@ -97,6 +104,7 @@ Business Value
 ________________________________________
 
 👨‍💼 Salesperson Performance Analysis
+
 Measures sales performance by each salesperson.
 Business Value
 •	Reward top performers
@@ -105,6 +113,7 @@ Business Value
 ________________________________________
 
 🗺️ Regional Sales Analysis
+
 Compares sales across business regions.
 Business Value
 •	Detect high-performing regions
@@ -113,6 +122,7 @@ Business Value
 ________________________________________
 
 📦 Product Sales Analysis
+
 Evaluates revenue contribution by product.
 Business Value
 •	Identify best-selling products
@@ -121,6 +131,7 @@ Business Value
 ________________________________________
 
 🚚 Shipping Revenue Analysis
+
 Analyses revenue generated through shipping companies.
 Business Value
 •	Compare logistics providers
@@ -129,6 +140,7 @@ Business Value
 ________________________________________
 
 💡 Key Insights
+
 The dashboard reveals several valuable business insights:
 ✅ Total revenue reached $435K, demonstrating strong commercial performance.
 ✅ More than 20,600 products were sold during the reporting period.
@@ -140,6 +152,7 @@ The dashboard reveals several valuable business insights:
 ________________________________________
 
 📌 Business Recommendations
+
 Based on the analysis:
 ✔️ Strengthen relationships with high-value customers through loyalty and retention programmes.
 ✔️ Expand marketing activities in high-performing cities and regions.
@@ -180,6 +193,7 @@ Commercial-Revenue-Sales-Intelligence/
 ________________________________________
 
 🚀 Skills Demonstrated
+
 Throughout this project, I demonstrated proficiency in:
 •	📊 Data Analysis
 •	📈 Sales Analytics
