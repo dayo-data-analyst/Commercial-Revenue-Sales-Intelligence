@@ -3,32 +3,50 @@
 Frangle Sales Performance Analysis (2014)
 
 📌 Project Overview
+
 This project analyses commercial sales data to evaluate revenue performance, customer purchasing behaviour, regional sales trends, product performance, and salesperson effectiveness. Using SQL and Microsoft Advanced Excel, I transformed raw sales data into an interactive executive dashboard that provides actionable insights for business decision-making.
 The dashboard enables stakeholders to monitor key performance indicators (KPIs), identify revenue opportunities, and make data-driven commercial decisions.
 ________________________________________
 
 🎯 Business Problem
+
 Businesses generate large volumes of sales transactions daily, making it challenging to identify:
+
 •	💰 Which customers generate the highest revenue
+
 •	📦 Which products contribute most to sales
+
 •	🌍 Which regions and cities perform best
+
 •	👨‍💼 Which sales representatives are top performers
+
 •	🚚 How shipping costs impact overall revenue
+
 Without a centralised dashboard, management may struggle to monitor performance and identify opportunities for growth.
+
 ________________________________________
 
 🎯 Project Objectives
+
 The project aims to:
 •	📈 Analyse overall business revenue performance
+
 •	👥 Identify top-performing customers
+
 •	🛍️ Evaluate product sales contribution
+
 •	🌎 Compare sales across regions and cities
+
 •	👨‍💼 Measure salesperson performance
+
 •	🚚 Analyse shipping revenue
+
 •	📊 Build an interactive executive dashboard for business reporting
+
 ________________________________________
 
 🗂️ Dataset
+
 The dataset contains commercial sales transaction records including:
 •	Customer Name
 •	Product
@@ -43,6 +61,7 @@ The dataset contains commercial sales transaction records including:
 ________________________________________
 
 🛠️ Tools & Skills Used
+
 SQL Server – Data extraction
 Microsoft Advanced Excel
 •	Pivot Tables
@@ -58,6 +77,7 @@ ________________________________________
 
 
 🗄️SQL Data Extraction
+
 The project began by retrieving the required fields from the Frangles Sales database using SQL query.
 
 ________________________________________
@@ -98,6 +118,7 @@ Business Value
 ________________________________________
 
 🌍 City Sales Analysis
+
 Compares revenue generated across different cities.
 Business Value
 •	Identify strongest markets
@@ -106,6 +127,7 @@ Business Value
 ________________________________________
 
 👨‍💼 Salesperson Performance Analysis
+
 Measures sales performance by each salesperson.
 Business Value
 •	Reward top performers
@@ -114,6 +136,7 @@ Business Value
 ________________________________________
 
 🗺️ Regional Sales Analysis
+
 Compares sales across business regions.
 Business Value
 •	Detect high-performing regions
@@ -122,6 +145,7 @@ Business Value
 ________________________________________
 
 📦 Product Sales Analysis
+
 Evaluates revenue contribution by product.
 Business Value
 •	Identify best-selling products
@@ -130,7 +154,9 @@ Business Value
 ________________________________________
 
 🚚 Shipping Revenue Analysis
+
 Analyses revenue generated through shipping companies.
+
 Business Value
 •	Compare logistics providers
 •	Monitor shipping costs
@@ -140,23 +166,39 @@ ________________________________________
 💡 Key Insights
 
 The dashboard reveals several valuable business insights:
+
 ✅ Total revenue reached $435K, demonstrating strong commercial performance.
-✅ More than 20,600 products were sold during the reporting period.
+
+✅ More than 20,600 products were sold during the reporting period
+
 ✅ A small number of customers contributed a significant share of total revenue, highlighting the importance of customer retention.
+
 ✅ Sales performance varied across cities and regions, suggesting opportunities for targeted marketing and regional expansion.
+
 ✅ Some sales representatives consistently outperformed others, providing benchmarks for performance improvement.
+
 ✅ A few products generated the majority of revenue, making them strategic products for continued investment.
+
 ✅ Shipping fees represented a significant operational cost that should be monitored to improve profitability.
+
 ________________________________________
 
 📌 Business Recommendations
+
 Based on the analysis:
+
 ✔️ Strengthen relationships with high-value customers through loyalty and retention programmes.
+
 ✔️ Expand marketing activities in high-performing cities and regions.
+
 ✔️ Provide coaching and performance incentives for lower-performing sales representatives.
+
 ✔️ Maintain sufficient inventory levels for best-selling products.
+
 ✔️ Review shipping providers to optimise logistics costs.
+
 ✔️ Continue monitoring KPIs through executive dashboards to support data-driven decision-making.
+
 ________________________________________
 
 📷 Dashboard Preview
@@ -191,18 +233,31 @@ ________________________________________
 🚀 Skills Demonstrated
 
 Throughout this project, I demonstrated proficiency in:
+
 •	📊 Data Analysis
+
 •	📈 Sales Analytics
+
 •	📉 Revenue Analysis
+
 •	📌 KPI Reporting
+
 •	📍 Business Intelligence
+
 •	📋 Dashboard Design
+
 •	🧹 Data Cleaning
+
 •	📊 Data Visualisation
+
 •	📦 Commercial Performance Analysis
-•	💼 Microsoft Advanced Excel
+
+•	💼 SQL and Microsoft Advanced Excel
+
 •	📢 Business Storytelling
+
 •	🎯 Executive Reporting
+
 ________________________________________
 
 👨‍💻 About Me
