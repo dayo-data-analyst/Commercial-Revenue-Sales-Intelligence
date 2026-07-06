@@ -63,7 +63,9 @@ ________________________________________
 🛠️ Tools & Skills Used
 
 SQL Server – Data extraction
+
 Microsoft Advanced Excel
+
 •	Pivot Tables
 •	Pivot Charts
 •	Slicers
