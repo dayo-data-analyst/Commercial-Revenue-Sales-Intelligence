@@ -5,6 +5,7 @@ Frangle Sales Performance Analysis (2014)
 <img width="737" height="537" alt="Dashboard_Screenshot" src="https://github.com/user-attachments/assets/41babb02-c693-4beb-a560-6c6f7836e7bd" />
 
 
+
 📌 Project Overview
 
 This project analyses commercial sales data to evaluate revenue performance, customer purchasing behaviour, regional sales trends, product performance, and salesperson effectiveness. Using SQL and Microsoft Advanced Excel, I transformed raw sales data into an interactive executive dashboard that provides actionable insights for business decision-making.
