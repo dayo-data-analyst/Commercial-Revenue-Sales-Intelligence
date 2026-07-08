@@ -2,6 +2,9 @@
 
 Frangle Sales Performance Analysis (2014)
 
+<img width="737" height="537" alt="Dashboard_Screenshot" src="https://github.com/user-attachments/assets/41babb02-c693-4beb-a560-6c6f7836e7bd" />
+
+
 📌 Project Overview
 
 This project analyses commercial sales data to evaluate revenue performance, customer purchasing behaviour, regional sales trends, product performance, and salesperson effectiveness. Using SQL and Microsoft Advanced Excel, I transformed raw sales data into an interactive executive dashboard that provides actionable insights for business decision-making.
@@ -82,10 +85,14 @@ ________________________________________
 
 The project began by retrieving the required fields from the Frangles Sales database using SQL query.
 
+<img width="991" height="605" alt="SQL_Query_Extract" src="https://github.com/user-attachments/assets/9e6e673d-ed11-4f41-94e9-d8e1a52bf44d" />
+
+<img width="1014" height="575" alt="SQL_Query" src="https://github.com/user-attachments/assets/59c038ed-aeff-4f98-8f73-180dd55d23c0" />
+
 ________________________________________
 
-
 📊 Dashboard KPIs
+
 The dashboard provides executives with a quick overview of business performance.
 
 💰 Total Revenue
@@ -109,6 +116,9 @@ Measures total shipping charges incurred.
 ________________________________________
 
 📈 Dashboard Analysis
+
+<img width="737" height="537" alt="Dashboard_Screenshot" src="https://github.com/user-attachments/assets/1647c306-1be5-4602-bd4b-21635175af90" />
+
 
 👥 Customer Sales Analysis
 
@@ -214,19 +224,21 @@ Commercial-Revenue-Sales-Intelligence/
 │
 
 ├── Dataset/
-│   └── Commercial Sales Dataset.xlsx
+│   └── Commercial_Sales_Dataset.xlsx
 │
 
 ├── Dashboard/
-│   └── Sales Performance Dashboard.xlsx
+│   └── Sales_Performance_Dashboard.xlsx
 │
 
 ├── Images/
-│   └── Dashboard Screenshot.png
-│
+│   └── Dashboard_Screenshot.png
+│   ├── SQL_Query_Extract.png
+|   ├── SQL_Query.png
+
 
 ├── Documentation/
-│   └── Project Report.pdf
+│   └── Project_Report.pdf
 │
 
 └── README.md
