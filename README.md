@@ -349,7 +349,7 @@ Connect with Me
 
 📧 Email: dayorex7@gmail.com
 
-💼 LinkedIn: 
+💼 LinkedIn: linkedin.com/in/dayo-afariogun
 
 💻 GitHub: https://github.com/dayo-data-analyst
 ________________________________________
