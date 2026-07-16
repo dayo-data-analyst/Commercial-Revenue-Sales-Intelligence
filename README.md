@@ -1,361 +1,329 @@
-📊 Commercial Revenue & Sales Intelligence
+# 📈 Commercial Revenue & Sales Intelligence
 
-Frangle Sales Performance Analysis (2014)
+### SQL | Microsoft Advanced Excel | Business Intelligence | Sales Analytics
 
 <img width="737" height="537" alt="Dashboard_Screenshot" src="https://github.com/user-attachments/assets/41babb02-c693-4beb-a560-6c6f7836e7bd" />
 
+---
 
+## 📌 Executive Summary
 
-📌 Project Overview
+This project demonstrates how transactional sales data can be transformed into meaningful commercial intelligence that supports executive decision-making.
 
-This project analyses commercial sales data to evaluate revenue performance, customer purchasing behaviour, regional sales trends, product performance, and salesperson effectiveness. Using SQL and Microsoft Advanced Excel, I transformed raw sales data into an interactive executive dashboard that provides actionable insights for business decision-making.
-The dashboard enables stakeholders to monitor key performance indicators (KPIs), identify revenue opportunities, and make data-driven commercial decisions.
-________________________________________
+Using **Microsoft SQL Server** for data extraction and **Microsoft Advanced Excel** for data analysis and dashboard development, I analysed Frangle's 2014 sales performance to uncover revenue drivers, customer purchasing behaviour, regional trends, product performance, salesperson effectiveness, and logistics insights.
 
-🎯 Business Problem
+The result is an interactive executive dashboard that enables management to monitor key performance indicators (KPIs), identify growth opportunities, optimise commercial strategy, and improve profitability.
 
-Businesses generate large volumes of sales transactions daily, making it challenging to identify:
+---
 
-•	💰 Which customers generate the highest revenue
+# 🎯 Business Problem
 
-•	📦 Which products contribute most to sales
+Many organisations collect vast amounts of transactional sales data but struggle to convert that information into actionable business insights.
 
-•	🌍 Which regions and cities perform best
+Without effective reporting, leadership cannot easily answer critical questions such as:
 
-•	👨‍💼 Which sales representatives are top performers
+* Which customers generate the highest revenue?
+* Which regions require further investment?
+* Which products contribute most to profitability?
+* Which sales representatives consistently outperform?
+* Which operational improvements could increase commercial performance?
 
-•	🚚 How shipping costs impact overall revenue
+This project demonstrates how data analytics can support evidence-based business decisions.
 
-Without a centralised dashboard, management may struggle to monitor performance and identify opportunities for growth.
+---
 
-________________________________________
+# 🎯 Project Objectives
 
-🎯 Project Objectives
+The primary objectives of this project were to:
 
-The project aims to:
+* Analyse overall commercial sales performance.
+* Identify high-value customers.
+* Evaluate regional and city-level sales trends.
+* Assess salesperson productivity.
+* Identify best-selling products.
+* Analyse shipping partner performance.
+* Build an executive dashboard for business reporting.
+* Provide strategic recommendations supported by data.
 
-•	📈 Analyse overall business revenue performance
+These objectives were achieved using SQL for data extraction and Microsoft Advanced Excel for business intelligence reporting. 
 
-•	👥 Identify top-performing customers
+---
 
-•	🛍️ Evaluate product sales contribution
+# 📂 Dataset Overview
 
-•	🌎 Compare sales across regions and cities
+The dataset contains commercial sales transactions across multiple customers, products, regions, cities, sales representatives, and shipping providers.
 
-•	👨‍💼 Measure salesperson performance
+Key attributes include:
 
-•	🚚 Analyse shipping revenue
+* Customer Name
+* Product
+* Quantity
+* Revenue
+* Unit Price
+* Salesperson
+* Region
+* City
+* Shipping Company
+* Shipping Fees
 
-•	📊 Build an interactive executive dashboard for business reporting
+---
 
-________________________________________
+# 🛠️ Tools & Technologies
 
-🗂️ Dataset
+| Technology               | Purpose                         |
+| ------------------------ | ------------------------------- |
+| Microsoft SQL Server     | Data extraction                 |
+| Microsoft Advanced Excel | Data analysis                   |
+| Power Query              | Data transformation             |
+| Pivot Tables             | Business reporting              |
+| Pivot Charts             | Data visualisation              |
+| Excel Formulas           | KPI calculations                |
+| Slicers                  | Interactive dashboard filtering |
+| Conditional Formatting   | Trend analysis                  |
 
-The dataset contains commercial sales transaction records including:
+---
 
-•	Customer Name
+<img width="991" height="605" alt="SQL_Query_Extract" src="https://github.com/user-attachments/assets/606117e6-f671-4b45-8f9a-768202798e4f" />
 
-•	Product
+<img width="1014" height="575" alt="SQL_Query" src="https://github.com/user-attachments/assets/8c53b639-d906-49d4-a446-f6e81f77c418" />
 
-•	Unit Price
 
-•	Quantity
+# 🔄 Project Workflow
 
-•	Revenue
+```text
+Raw Sales Database
+        │
+        ▼
+SQL Data Extraction
+        │
+        ▼
+Power Query
+        │
+        ▼
+Data Cleaning & Transformation
+        │
+        ▼
+Pivot Tables
+        │
+        ▼
+KPI Calculations
+        │
+        ▼
+Interactive Dashboard
+        │
+        ▼
+Business Insights & Recommendations
+```
 
-•	Shipping Fee
+---
 
-•	Salesperson
+# 📊 Dashboard Overview
 
-•	City
+<img width="737" height="537" alt="Dashboard_Screenshot" src="https://github.com/user-attachments/assets/6a59d6e2-c8ce-4c88-8c5b-167e09b135f7" />
 
-•	Region
+The dashboard provides executive visibility into:
 
-•	Shipping Company
+* Total Revenue
+* Sales Quantity
+* Shipping Fees
+* Customer Performance
+* Product Performance
+* Regional Performance
+* Salesperson Performance
+* City Performance
+* Shipping Analysis
 
-________________________________________
+---
 
-🛠️ Tools & Skills Used
+# 📈 Key Performance Indicators
 
-SQL Server – Data extraction
+| KPI              |          Result |
+| ---------------- | --------------: |
+| Total Revenue    |       **$435K** |
+| Quantity Sold    | **20.6K Units** |
+| Shipping Fees    |      **$43.7K** |
+| Unit Price Value |       **$7.8K** |
 
-Microsoft Advanced Excel
+These KPIs indicate strong commercial activity supported by healthy customer demand and consistent order volumes. 
 
-•	Pivot Tables
+---
 
-•	Pivot Charts
+# ❓ Business Questions Answered
 
-•	Slicers
+This analysis answers several strategic business questions, including:
 
-•	Dashboard Design
+* Which customers contribute the highest revenue?
+* Which cities generate the strongest commercial performance?
+* Which regions should receive additional investment?
+* Which products drive sales growth?
+* Which sales representatives deliver the strongest results?
+* Which logistics providers handle the highest-value orders?
 
-•	KPI Cards
 
-•	Conditional Formatting
 
-•	Data Cleaning
+---
 
-•	Data Analysis
+# 🔍 Key Insights
 
-•	Business Intelligence Reporting
+## 💰 Revenue Performance
 
-________________________________________
+Frangle generated approximately **$435K** in revenue during the reporting period.
 
+The analysis shows that a relatively small number of customers account for a significant proportion of total revenue, highlighting customer concentration risk.
 
-🗄️SQL Data Extraction
+---
 
-The project began by retrieving the required fields from the Frangles Sales database using SQL query.
+## 👥 Customer Analysis
 
-<img width="991" height="605" alt="SQL_Query_Extract" src="https://github.com/user-attachments/assets/9e6e673d-ed11-4f41-94e9-d8e1a52bf44d" />
+The highest revenue-generating customers contribute a substantial share of overall sales.
 
-<img width="1014" height="575" alt="SQL_Query" src="https://github.com/user-attachments/assets/59c038ed-aeff-4f98-8f73-180dd55d23c0" />
+### Business Insight
 
-________________________________________
+Heavy dependence on a small customer base increases revenue concentration risk.
 
-📊 Dashboard KPIs
+### Recommendation
 
-The dashboard provides executives with a quick overview of business performance.
+* Improve customer retention.
+* Expand the medium-sized customer segment.
+* Diversify revenue sources.
 
-💰 Total Revenue
 
-$435.0K
 
-Measures total sales revenue generated.
+---
 
-________________________________________
+## 🌍 Regional Performance
 
-💵 Total Unit Price
+The North region generated the highest revenue, followed by the East region.
 
-$7.8K
+### Business Insight
 
-Shows the cumulative unit price across all products sold.
+High-performing regions should continue receiving strategic investment, while weaker regions require further market analysis.
 
-________________________________________
 
-📦 Total Quantity
 
-20.6K Units
+---
 
-Represents the total quantity of products sold.
+## 🏆 Salesperson Performance
 
-________________________________________
+The dashboard identifies significant performance differences across the sales team.
 
-🚚 Total Shipping Fee
+### Recommendation
 
-$43.7K
+* Replicate best practices from top-performing representatives.
+* Implement coaching and mentoring programmes.
+* Standardise successful sales processes.
 
-Measures total shipping charges incurred.
-________________________________________
 
-📈 Dashboard Analysis
 
-<img width="737" height="537" alt="Dashboard_Screenshot" src="https://github.com/user-attachments/assets/1647c306-1be5-4602-bd4b-21635175af90" />
+---
 
+## 📦 Product Performance
 
-👥 Customer Sales Analysis
+Coffee emerged as the highest revenue-generating product.
 
-Analyses revenue generated by individual customers.
+### Business Value
 
-Business Value
+Management should prioritise inventory planning and promotional activities for high-performing products while reviewing underperforming items.
 
-•	Identify high-value customers
 
-•	Improve customer retention
 
-•	Support account management strategies
+---
 
-________________________________________
+# 💼 Financial & Business Impact
 
-🌍 City Sales Analysis
+This analysis demonstrates how commercial analytics supports stronger financial performance by helping management:
 
-Compares revenue generated across different cities.
+* Increase revenue growth.
+* Improve inventory turnover.
+* Optimise working capital.
+* Strengthen operating cash flow.
+* Improve customer retention.
+* Reduce concentration risk.
+* Support strategic investment decisions.
 
-Business Value
+From an accounting perspective, improved sales performance positively influences revenue, retained earnings, cash flow, inventory efficiency, and shareholders' equity, provided costs remain well managed. 
 
-•	Identify strongest markets
+---
 
-•	Allocate marketing resources effectively
-
-•	Support expansion decisions
-
-________________________________________
-
-👨‍💼 Salesperson Performance Analysis
-
-Measures sales performance by each salesperson.
-
-Business Value
-
-•	Reward top performers
-
-•	Identify training opportunities
-
-•	Improve sales productivity
-
-________________________________________
-
-🗺️ Regional Sales Analysis
-
-Compares sales across business regions.
-
-Business Value
-
-•	Detect high-performing regions
-
-•	Identify underperforming markets
-
-•	Improve regional sales strategy
-
-________________________________________
-
-📦 Product Sales Analysis
-
-Evaluates revenue contribution by product.
-
-Business Value
-
-•	Identify best-selling products
-
-•	Improve inventory planning
-
-•	Support pricing decisions
-
-________________________________________
-
-🚚 Shipping Revenue Analysis
-
-Analyses revenue generated through shipping companies.
-
-Business Value
-
-•	Compare logistics providers
-
-•	Monitor shipping costs
-
-•	Improve operational efficiency
-
-________________________________________
-
-💡 Key Insights
-
-The dashboard reveals several valuable business insights:
-
-✅ Total revenue reached $435K, demonstrating strong commercial performance.
-
-✅ More than 20,600 products were sold during the reporting period
-
-✅ A small number of customers contributed a significant share of total revenue, highlighting the importance of customer retention.
-
-✅ Sales performance varied across cities and regions, suggesting opportunities for targeted marketing and regional expansion.
-
-✅ Some sales representatives consistently outperformed others, providing benchmarks for performance improvement.
-
-✅ A few products generated the majority of revenue, making them strategic products for continued investment.
-
-✅ Shipping fees represented a significant operational cost that should be monitored to improve profitability.
-
-________________________________________
-
-📌 Business Recommendations
+# 💡 Strategic Recommendations
 
 Based on the analysis:
 
-✔️ Strengthen relationships with high-value customers through loyalty and retention programmes.
+* Diversify the customer base to reduce concentration risk.
+* Expand investment in high-performing regions.
+* Improve performance in lower-performing cities.
+* Replicate the techniques of top-performing sales representatives.
+* Optimise logistics partnerships.
+* Monitor KPIs using interactive dashboards.
+* Enhance inventory planning for best-selling products.
 
-✔️ Expand marketing activities in high-performing cities and regions.
 
-✔️ Provide coaching and performance incentives for lower-performing sales representatives.
 
-✔️ Maintain sufficient inventory levels for best-selling products.
+---
 
-✔️ Review shipping providers to optimise logistics costs.
+# 🧠 Skills Demonstrated
 
-✔️ Continue monitoring KPIs through executive dashboards to support data-driven decision-making.
+### Data Analytics
 
-________________________________________
+* SQL
+* Data Extraction
+* Data Cleaning
+* Exploratory Data Analysis (EDA)
+* KPI Reporting
 
-📁 Repository Structure
+### Business Intelligence
 
-Commercial-Revenue-Sales-Intelligence/
+* Microsoft Advanced Excel
+* Power Query
+* Pivot Tables
+* Dashboard Development
+* Executive Reporting
+
+### Business Analysis
+
+* Commercial Performance Analysis
+* Customer Segmentation
+* Revenue Analytics
+* Geographic Analysis
+* Sales Performance Analysis
+
+### Professional Skills
+
+* Business Storytelling
+* Strategic Thinking
+* Financial Analysis
+* Decision Support
+* Executive Reporting
+
+---
+
+# 📁 Repository Structure
+
+```text
+Commercial-Revenue-Sales-Intelligence
 │
-
-├── Dataset/
-│   └── Commercial_Sales_Dataset.xlsx
-│
-
-├── Dashboard/
-│   └── Sales_Performance_Dashboard.xlsx
-│
-
-├── Images/
-│   └── Dashboard_Screenshot.png
-│   ├── SQL_Query_Extract.png
-|   ├── SQL_Query.png
-
-
-├── Documentation/
-│   └── Project_Report.pdf
-│
-
+├── Dataset
+├── SQL Query Screenshots
+├── Excel Dashboard
+├── Dashboard Screenshot
+├── Project Report
 └── README.md
-________________________________________
+```
 
+---
 
-🚀 Skills Demonstrated
+# 👨‍💼 About the Author
 
-Throughout this project, I demonstrated proficiency in:
+**Dayo Rex Afariogun**
 
-•	📊 Data Analysis
+Business Analyst | Financial Data Analytics | Business Intelligence
 
-•	📈 Sales Analytics
+I specialise in transforming complex business data into actionable insights through SQL, Python, Microsoft Excel, and Power BI. My background in Accounting enables me to combine technical analytics with financial and commercial understanding to support better business decisions.
 
-•	📉 Revenue Analysis
+📧 **Email:** [dayorex7@gmail.com](mailto:dayorex7@gmail.com)
 
-•	📌 KPI Reporting
+💼 **LinkedIn:** linkedin.com/in/dayo-afariogun
 
-•	📍 Business Intelligence
+💻 **GitHub:** github.com/dayo-data-analyst
 
-•	📋 Dashboard Design
-
-•	🧹 Data Cleaning
-
-•	📊 Data Visualisation
-
-•	📦 Commercial Performance Analysis
-
-•	💼 SQL and Microsoft Advanced Excel
-
-•	📢 Business Storytelling
-
-•	🎯 Executive Reporting
-
-________________________________________
-
-👨‍💻 About Me
-
-Dayo Rex Afariogun
-
-Data Analyst passionate about transforming raw data into actionable business insights. I have hands-on experience delivering analytical solutions using:
-
-•	🗄️ SQL
-•	🐍 Python
-•	📊 Microsoft Power BI
-•	📈 Microsoft Advanced Excel
-
-I also have B.Sc Accounting. I am actively seeking Data Analyst opportunities in Ireland, where I can contribute to data-driven decision-making and business growth.
-
-Connect with Me
-
-📧 Email: dayorex7@gmail.com
-
-💼 LinkedIn: https://www.linkedin.com/in/dayo-afariogun
-
-💻 GitHub: https://github.com/dayo-data-analyst
-________________________________________
-
-⭐ If you found this project interesting, please consider giving it a star! Feedback and suggestions are always welcome.
-
-________________________________________
-
-
+---
