@@ -83,9 +83,10 @@ Key attributes include:
 
 ---
 
-<img width="991" height="605" alt="SQL_Query_Extract" src="https://github.com/user-attachments/assets/606117e6-f671-4b45-8f9a-768202798e4f" />
+<img width="1017" height="569" alt="SQL_Query_Extract" src="https://github.com/user-attachments/assets/253da6e8-223a-4b89-9bd3-f1c3d5cada58" />
 
-<img width="1014" height="575" alt="SQL_Query" src="https://github.com/user-attachments/assets/8c53b639-d906-49d4-a446-f6e81f77c418" />
+
+<img width="995" height="565" alt="SQL_Query" src="https://github.com/user-attachments/assets/10fa9452-0ad5-4921-85c3-63453d732d83" />
 
 
 # 🔄 Project Workflow
